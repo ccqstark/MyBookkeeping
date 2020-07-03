@@ -26,6 +26,12 @@ import javafx.stage.Stage;
 
 public class GraphPage extends Application{
 
+    public Stage primaryStage = new Stage();
+
+    public GraphPage() throws Exception {
+        start(this.primaryStage);
+    }
+
     @Override
     public void start(Stage primaryStage) throws Exception {
         Scene scene = new Scene(new Group(),500,440);
@@ -63,6 +69,10 @@ public class GraphPage extends Application{
         primaryStage.setTitle("统计图表");
         //图标
         primaryStage.getIcons().add(new Image("file:./images/icon.png"));
-        primaryStage.show();
     }
+
+    public void show(){
+        this.primaryStage.show();
+    }
+
 }

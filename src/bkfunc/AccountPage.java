@@ -23,6 +23,13 @@ import javafx.stage.Stage;
 
 public class AccountPage extends Application{
 
+    public Stage primaryStage = new Stage();
+
+    public AccountPage() throws Exception {
+        start(this.primaryStage);
+    }
+
+
     @Override
     public void start(Stage primaryStage) throws Exception {
 
@@ -66,8 +73,10 @@ public class AccountPage extends Application{
         primaryStage.setTitle("账户信息");
         //图标
         primaryStage.getIcons().add(new Image("file:./images/icon.png"));
-        primaryStage.show();
     }
 
+    public void show(){
+        this.primaryStage.show();
+    }
 
 }

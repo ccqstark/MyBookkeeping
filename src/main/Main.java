@@ -1,6 +1,9 @@
 package main;
 
+import bkfunc.*;
 import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -44,6 +47,53 @@ public class Main extends Application {
         graphButton.setLayoutX(220);
         graphButton.setLayoutY(200);
 
+
+        //子窗口实例化与按钮绑定
+        TakeNote takeNote = new TakeNote();
+        ViewBook viewBook = new ViewBook();
+        AccountPage accountPage = new AccountPage();
+        GraphPage graphPage = new GraphPage();
+
+        //立刻记账
+        takeNoteButton.setOnMouseClicked(e->{
+            primaryStage.hide();
+            takeNote.show();
+        });
+        takeNote.back.setOnMouseClicked(e->{
+            takeNote.primaryStage.hide();
+            primaryStage.show();
+        });
+        takeNote.primaryStage.setOnCloseRequest(e->{
+            primaryStage.show();
+        });
+
+        //我的账本
+        manageBookButton.setOnMouseClicked(e->{
+            primaryStage.hide();
+            viewBook.show();
+        });
+        viewBook.primaryStage.setOnCloseRequest(e->{
+            primaryStage.show();
+        });
+
+        //账户信息
+        userButton.setOnMouseClicked(e->{
+            primaryStage.hide();
+            accountPage.show();
+        });
+        accountPage.primaryStage.setOnCloseRequest(e->{
+            primaryStage.show();
+        });
+
+        //统计图表
+        graphButton.setOnMouseClicked(e->{
+            primaryStage.hide();
+            graphPage.show();
+        });
+        graphPage.primaryStage.setOnCloseRequest(e->{
+            primaryStage.show();
+        });
+
         Scene scene = new Scene(mainPane,405,365);
         primaryStage.setScene(scene);
         primaryStage.setTitle("My Bookkeeping");
@@ -57,3 +107,4 @@ public class Main extends Application {
         launch(args);
     }
 }
+

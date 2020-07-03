@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/images/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bkfunc/AccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bkfunc/Editor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bkfunc/GraphPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bkfunc/ViewBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tips.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/AccountPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/AccountPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/GraphPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/GraphPage$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/GraphPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/GraphPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/TakeNote.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/TakeNote.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/ViewBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/ViewBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bkfunc/AccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bkfunc/AccountPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bkfunc/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bkfunc/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bkfunc/GraphPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bkfunc/GraphPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bkfunc/TakeNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bkfunc/TakeNote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bkfunc/ViewBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bkfunc/ViewBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/userbase/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/userbase/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/userbase/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/userbase/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/userbase/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/userbase/Register.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +125,7 @@
       <recent name="D:\CMY_CODE\DesktopAppBigHomework\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GraphPage">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -137,34 +151,6 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="AccountPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bkfunc.AccountPage" />
-      <module name="MyBookkeeping" />
-      <option name="VM_PARAMETERS" value="--module-path C:\javafx-sdk-11.0.2\lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bkfunc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Editor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bkfunc.Editor" />
-      <module name="MyBookkeeping" />
-      <option name="VM_PARAMETERS" value="--module-path C:\javafx-sdk-11.0.2\lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.web" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bkfunc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GraphPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bkfunc.GraphPage" />
       <module name="MyBookkeeping" />
@@ -172,6 +158,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bkfunc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="userbase.Login" />
+      <module name="MyBookkeeping" />
+      <option name="VM_PARAMETERS" value="--module-path C:\javafx-sdk-11.0.2\lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="userbase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,10 +195,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Register" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="userbase.Register" />
+      <module name="MyBookkeeping" />
+      <option name="VM_PARAMETERS" value="--module-path C:\javafx-sdk-11.0.2\lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="userbase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ViewBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bkfunc.ViewBook" />
       <module name="MyBookkeeping" />
-      <option name="VM_PARAMETERS" value="--module-path C:\javafx-sdk-11.0.2\lib --add-modules javafx.controls,javafx.fxml" />
+      <option name="VM_PARAMETERS" value="--module-path C:\javafx-sdk-11.0.2\lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.web" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bkfunc.*" />
@@ -248,18 +262,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.ViewBook" />
-      <item itemvalue="Application.AccountPage" />
-      <item itemvalue="Application.Editor" />
       <item itemvalue="Application.GraphPage" />
+      <item itemvalue="Application.Register" />
+      <item itemvalue="Application.Login" />
+      <item itemvalue="Application.ViewBook" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GraphPage" />
-        <item itemvalue="Application.AccountPage" />
-        <item itemvalue="Application.Editor" />
-        <item itemvalue="Application.ViewBook" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ViewBook" />
+        <item itemvalue="Application.Register" />
+        <item itemvalue="Application.Login" />
+        <item itemvalue="Application.GraphPage" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +295,8 @@
       <workItem from="1593353940696" duration="10000" />
       <workItem from="1593362906561" duration="230000" />
       <workItem from="1593589700370" duration="833000" />
-      <workItem from="1593736018747" duration="11815000" />
+      <workItem from="1593736018747" duration="12557000" />
+      <workItem from="1593765866915" duration="26066000" />
     </task>
     <servers />
   </component>
@@ -294,49 +309,53 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593746528682">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593800083154">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593746528682" />
-    <state width="1493" height="253" key="GridCell.Tab.0.bottom" timestamp="1593747094903">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593800083154" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1593770059065">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593747094903" />
-    <state width="1493" height="253" key="GridCell.Tab.0.center" timestamp="1593747094902">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593770059065" />
+    <state width="1493" height="201" key="GridCell.Tab.0.bottom" timestamp="1593800103215">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593747094902" />
-    <state width="1493" height="253" key="GridCell.Tab.0.left" timestamp="1593747094902">
+    <state width="1493" height="201" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593800103215" />
+    <state width="1493" height="201" key="GridCell.Tab.0.center" timestamp="1593800103214">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593747094902" />
-    <state width="1493" height="253" key="GridCell.Tab.0.right" timestamp="1593747094903">
+    <state width="1493" height="201" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593800103214" />
+    <state width="1493" height="201" key="GridCell.Tab.0.left" timestamp="1593800103214">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593747094903" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1593353442119">
+    <state width="1493" height="201" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593800103214" />
+    <state width="1493" height="201" key="GridCell.Tab.0.right" timestamp="1593800103215">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593353442119" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1593353442119">
+    <state width="1493" height="201" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593800103215" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1593800103211">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593353442119" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1593353442119">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593800103211" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1593800103211">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593353442119" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1593353442119">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593800103211" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1593800103210">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593353442119" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593800103210" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1593800103211">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593800103211" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1593741622128">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593741622128" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1593736041857">
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1593766152027">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593736041857" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593766152027" />
   </component>
 </project>

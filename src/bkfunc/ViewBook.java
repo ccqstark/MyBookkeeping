@@ -21,14 +21,21 @@ import javafx.stage.Stage;
 
 public class ViewBook extends Application {
 
+    public Stage primaryStage = new Stage();
+
+    public ViewBook() throws Exception {
+        start(this.primaryStage);
+    }
+
     public TableView createPage(Integer pageIndex){
         TableView table = new TableView();
         table.setEditable(true);
 
-        TableColumn firstNameCol = new TableColumn("First Name");
-        TableColumn lastNameCol = new TableColumn("Last Name");
-        TableColumn emailCol = new TableColumn("Email");
-        table.getColumns().addAll(firstNameCol, lastNameCol, emailCol);
+        TableColumn dateCol = new TableColumn("日期");
+        TableColumn desCol = new TableColumn("描述");
+        TableColumn cateCol = new TableColumn("分类");
+        TableColumn moneyCol = new TableColumn("金额");
+        table.getColumns().addAll(dateCol,desCol,cateCol,moneyCol);
 
         return table;
     }
@@ -45,7 +52,7 @@ public class ViewBook extends Application {
         Button searchIt = new Button("🔍");
         Button opera = new Button("操作");
         ChoiceBox orderChoiceBox = new ChoiceBox(FXCollections.observableArrayList(
-                "按日期倒序","按日期顺序"
+                "按记录顺序","按记录倒叙"
         ));
         hBox.getChildren().add(searchTextField);
         hBox.getChildren().add(searchIt);
@@ -70,17 +77,15 @@ public class ViewBook extends Application {
         vBox.getChildren().add(anchor);
 
 
-
-
-
-
         Scene scene = new Scene(vBox,350,440);
         primaryStage.setScene(scene);
         primaryStage.setTitle("我的账本");
         //图标
         primaryStage.getIcons().add(new Image("file:./images/icon.png"));
-        primaryStage.show();
     }
 
+    public void show(){
+        this.primaryStage.show();
+    }
 
 }

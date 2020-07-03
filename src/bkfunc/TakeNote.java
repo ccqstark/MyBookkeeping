@@ -12,14 +12,36 @@ import javafx.geometry.VPos;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.*;
+import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextAlignment;
 import javafx.stage.Stage;
 
+import java.sql.SQLException;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
 public class TakeNote extends Application{
+
+    public Stage primaryStage = new Stage();
+    public Button back = new Button("返回");
+
+    private LocalDate date;
+    private String dateStr;
+    private String cate;
+    private String pro;
+    private String description;
+    private String moneyStr;
+    private float moneyFloat = -1;
+
+    public TakeNote() throws Exception {
+        start(this.primaryStage);
+    }
+
     public void start(Stage primaryStage) throws Exception {
 
         BorderPane borderPane = new BorderPane();
@@ -38,22 +60,7 @@ public class TakeNote extends Application{
         //日期输入框
         dateHBox.setPadding(new Insets(5,5,5,5));
         dateHBox.getChildren().add(new Text("日 期: "));
-//        //年
-//        TextField yearTextField = new TextField();
-//        yearTextField.setPrefColumnCount(3);
-//        dateHBox.getChildren().add(yearTextField);
-//        dateHBox.getChildren().add(new Text("年 "));
-//        //月
-//        TextField monthTextField = new TextField();
-//        monthTextField.setPrefColumnCount(2);
-//        dateHBox.getChildren().add(monthTextField);
-//        dateHBox.getChildren().add(new Text("月 "));
-//        //日
-//        TextField dayTextField = new TextField();
-//        dayTextField.setPrefColumnCount(2);
-//        dateHBox.getChildren().add(dayTextField);
-//        dateHBox.getChildren().add(new Text("日"));
-
+        //自带日期选择器
         DatePicker datePicker = new DatePicker();
         dateHBox.getChildren().add(datePicker);
 
@@ -109,7 +116,6 @@ public class TakeNote extends Application{
         GridPane.setValignment(done,VPos.CENTER);
 
         //返回按钮
-        Button back = new Button("返回");
         back.setFont(new Font(13));
         buttonPane.add(back,2,0);
         GridPane.setHalignment(back,HPos.CENTER);
@@ -122,15 +128,80 @@ public class TakeNote extends Application{
         borderPane.setPadding(new Insets(13));
         BorderPane.setAlignment(buttonPane,Pos.CENTER);
 
+        //提示板
+        Stage NoticeStage = new Stage();
+        BorderPane noticePane = new BorderPane();
+        Label notice = new Label(" 还没填完整！");
+        notice.setFont(Font.font("微软雅黑", FontWeight.BOLD,21));
+        notice.setTextFill(Color.RED);
+        noticePane.setCenter(notice);
+        BorderPane.setAlignment(notice,Pos.CENTER);
+        notice.setAlignment(Pos.CENTER);
+        Scene noticeScene = new Scene(noticePane,250,120);
+        NoticeStage.setScene(noticeScene);
+        NoticeStage.setTitle("错误提示");
+        NoticeStage.getIcons().add(new Image("file:./images/tips.png"));
+
+        //成功提示板
+
+
+        //事件绑定
+        done.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                date = datePicker.getValue();
+                //转化为字符串
+                if (date!=null) {
+                    dateStr = LocalDateToString(date);
+                }
+                cate = (String) revenueChoiceBox.getValue();
+                pro = (String) itemChoiceBox.getValue();
+                description = descriptionTextField.getText();
+                moneyStr = moneyTextField.getText();
+                //转化为浮点数
+                if (!moneyStr.equals("")) {
+                    moneyFloat = Float.parseFloat(moneyStr);
+                }
+
+                if (date==null || cate==null || pro==null || description.equals("") || moneyStr.equals("")){
+                    //错误提示
+                    NoticeStage.show();
+                } else {
+                    Controller controller = new Controller();
+                    try {
+                        controller.takeNewNote(dateStr,cate,pro,description,moneyFloat);
+                        //成功提示
+                        notice.setText(" 新账单已创建！");
+                        notice.setTextFill(Color.GREEN);
+                        NoticeStage.setTitle("成功提示");
+                        NoticeStage.show();
+
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    } catch (ClassNotFoundException e) {
+                        e.printStackTrace();
+                    }
+
+                }
+            }
+        });
 
         Scene scene = new Scene(borderPane,350,230);
         primaryStage.setScene(scene);
         primaryStage.setTitle("立即记账");
         //图标
         primaryStage.getIcons().add(new Image("file:./images/icon.png"));
-        primaryStage.show();
-
     }
 
+    public void show(){
+        this.primaryStage.show();
+    }
+
+
+    public String LocalDateToString(LocalDate date) {
+        DateTimeFormatter fmt = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        String dateStr = date.format(fmt);
+        return dateStr;
+    }
 
 }
