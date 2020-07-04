@@ -2,24 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/images/tips.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/loading.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/modify.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bkfunc/Bill.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/DatabaseConnect/ConnectionClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/DatabaseConnect/ConnectionClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/AccountPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/AccountPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/Editor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/GraphPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/GraphPage$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/GraphPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/GraphPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/TakeNote$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/TakeNote$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/TakeNote.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/TakeNote.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/ViewBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/ViewBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/main/Controller.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/main/sample.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Register$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Register$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DatabaseConnect/ConnectionClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DatabaseConnect/ConnectionClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bkfunc/AccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bkfunc/AccountPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bkfunc/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bkfunc/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bkfunc/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bkfunc/Editor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bkfunc/GraphPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bkfunc/GraphPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bkfunc/TakeNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bkfunc/TakeNote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bkfunc/ViewBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bkfunc/ViewBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Controller.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sample.fxml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/userbase/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/userbase/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/userbase/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/userbase/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/userbase/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/userbase/Register.java" afterDir="false" />
@@ -28,6 +40,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -125,7 +140,7 @@
       <recent name="D:\CMY_CODE\DesktopAppBigHomework\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Register">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -151,10 +166,10 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="GraphPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bkfunc.GraphPage" />
+    <configuration name="AccountPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bkfunc.AccountPage" />
       <module name="MyBookkeeping" />
-      <option name="VM_PARAMETERS" value="--module-path C:\javafx-sdk-11.0.2\lib --add-modules javafx.controls,javafx.fxml" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="bkfunc.*" />
@@ -165,13 +180,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="userbase.Login" />
+    <configuration name="Editor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bkfunc.Editor" />
       <module name="MyBookkeeping" />
-      <option name="VM_PARAMETERS" value="--module-path C:\javafx-sdk-11.0.2\lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.web" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="userbase.*" />
+          <option name="PATTERN" value="bkfunc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,7 +197,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="MyBookkeeping" />
-      <option name="VM_PARAMETERS" value="--module-path C:\javafx-sdk-11.0.2\lib --add-modules javafx.controls,javafx.fxml" />
+      <option name="VM_PARAMETERS" value="--module-path C:\javafx-sdk-11.0.2\lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.web" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.*" />
@@ -262,18 +277,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.GraphPage" />
       <item itemvalue="Application.Register" />
-      <item itemvalue="Application.Login" />
       <item itemvalue="Application.ViewBook" />
+      <item itemvalue="Application.AccountPage" />
+      <item itemvalue="Application.Editor" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ViewBook" />
         <item itemvalue="Application.Register" />
-        <item itemvalue="Application.Login" />
-        <item itemvalue="Application.GraphPage" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Editor" />
+        <item itemvalue="Application.AccountPage" />
+        <item itemvalue="Application.ViewBook" />
       </list>
     </recent_temporary>
   </component>
@@ -297,6 +312,7 @@
       <workItem from="1593589700370" duration="833000" />
       <workItem from="1593736018747" duration="12557000" />
       <workItem from="1593765866915" duration="26066000" />
+      <workItem from="1593834238681" duration="26714000" />
     </task>
     <servers />
   </component>
@@ -309,30 +325,30 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593800083154">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593854283095">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593800083154" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1593770059065">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593854283095" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1593838655527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593770059065" />
-    <state width="1493" height="201" key="GridCell.Tab.0.bottom" timestamp="1593800103215">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593838655527" />
+    <state width="1493" height="154" key="GridCell.Tab.0.bottom" timestamp="1593862319037">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="201" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593800103215" />
-    <state width="1493" height="201" key="GridCell.Tab.0.center" timestamp="1593800103214">
+    <state width="1493" height="154" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593862319037" />
+    <state width="1493" height="154" key="GridCell.Tab.0.center" timestamp="1593862319037">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="201" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593800103214" />
-    <state width="1493" height="201" key="GridCell.Tab.0.left" timestamp="1593800103214">
+    <state width="1493" height="154" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593862319037" />
+    <state width="1493" height="154" key="GridCell.Tab.0.left" timestamp="1593862319036">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="201" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593800103214" />
-    <state width="1493" height="201" key="GridCell.Tab.0.right" timestamp="1593800103215">
+    <state width="1493" height="154" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593862319036" />
+    <state width="1493" height="154" key="GridCell.Tab.0.right" timestamp="1593862319037">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="201" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593800103215" />
+    <state width="1493" height="154" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593862319037" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1593800103211">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -353,9 +369,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593741622128" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1593766152027">
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1593834427588">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593766152027" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593834427588" />
+    <state x="377" y="0" width="782" height="824" key="find.popup" timestamp="1593844622733">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="377" y="0" width="782" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1593844622733" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1593840387510">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593840387510" />
   </component>
 </project>

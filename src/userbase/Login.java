@@ -1,9 +1,6 @@
 package userbase;
 
-import main.*;
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
 import javafx.geometry.HPos;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -22,8 +19,8 @@ import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextAlignment;
 import javafx.stage.Stage;
+import main.Main;
 
-import java.sql.Connection;
 import java.sql.SQLException;
 
 public class Login extends Application {
@@ -104,6 +101,7 @@ public class Login extends Application {
         primaryStage.setTitle("Login");
         //图标
         primaryStage.getIcons().add(new Image("file:./images/icon.png"));
+        primaryStage.setResizable(false);
     }
 
     public void show(){

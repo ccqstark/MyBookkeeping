@@ -1,9 +1,6 @@
 package userbase;
 
-import bkfunc.GraphPage;
-import com.sun.javafx.scene.control.behavior.TwoLevelFocusBehavior;
 import javafx.application.Application;
-import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.HPos;
 import javafx.geometry.Insets;
@@ -11,12 +8,10 @@ import javafx.geometry.Pos;
 import javafx.geometry.VPos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.Border;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.paint.Color;
@@ -124,6 +119,7 @@ public class Register extends Application{
         primaryStage.setTitle("注册");
         //图标
         primaryStage.getIcons().add(new Image("file:./images/icon.png"));
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
 }

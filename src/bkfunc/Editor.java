@@ -8,6 +8,12 @@ import javafx.stage.Stage;
 
 public class Editor extends Application {
 
+    Stage primaryStage = new Stage();
+
+    public Editor(){
+        this.start(this.primaryStage);
+    }
+
     @Override
     public void start(Stage primaryStage) {
         HTMLEditor htmlEditor = new HTMLEditor();
@@ -18,7 +24,7 @@ public class Editor extends Application {
         primaryStage.setScene(scene);
         primaryStage.setTitle("文本编辑器");
         //图标
-        primaryStage.getIcons().add(new Image("file:./images/icon.png"));
+        primaryStage.getIcons().add(new Image("file:./images/modify.png"));
         primaryStage.show();
     }
     public static void main(String[] args) {

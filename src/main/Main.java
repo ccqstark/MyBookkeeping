@@ -1,17 +1,14 @@
 package main;
 
-import bkfunc.*;
+import bkfunc.AccountPage;
+import bkfunc.GraphPage;
+import bkfunc.TakeNote;
+import bkfunc.ViewBook;
 import javafx.application.Application;
-import javafx.event.ActionEvent;
-import javafx.event.EventHandler;
-import javafx.fxml.FXMLLoader;
-import javafx.geometry.Insets;
-import javafx.geometry.Pos;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
-import javafx.scene.layout.GridPane;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
@@ -47,6 +44,13 @@ public class Main extends Application {
         graphButton.setLayoutX(220);
         graphButton.setLayoutY(200);
 
+        //提示板
+        Stage NoticeStage = new Stage();
+        BorderPane noticePane = new BorderPane();
+        Scene noticeScene = new Scene(noticePane,222,90);
+        NoticeStage.setScene(noticeScene);
+        NoticeStage.setTitle("加载中...");
+        NoticeStage.getIcons().add(new Image("file:./images/loading.png"));
 
         //子窗口实例化与按钮绑定
         TakeNote takeNote = new TakeNote();
@@ -70,7 +74,9 @@ public class Main extends Application {
         //我的账本
         manageBookButton.setOnMouseClicked(e->{
             primaryStage.hide();
+            NoticeStage.show();
             viewBook.show();
+            NoticeStage.hide();
         });
         viewBook.primaryStage.setOnCloseRequest(e->{
             primaryStage.show();
@@ -99,6 +105,7 @@ public class Main extends Application {
         primaryStage.setTitle("My Bookkeeping");
         //图标
         primaryStage.getIcons().add(new Image("file:./images/icon.png"));
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
 

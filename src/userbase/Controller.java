@@ -1,9 +1,9 @@
 package userbase;
 
 import DatabaseConnect.ConnectionClass;
-import javafx.event.ActionEvent;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -11,7 +11,7 @@ import java.sql.Statement;
 
 public class Controller {
 
-    public static int user_id;
+    public static int user_id = 1;
     private TextField textField1; //用户名输入框
     private TextField textField2; //密码输入框
     private Label label;
@@ -60,7 +60,7 @@ public class Controller {
         String passwordInput = this.textField2.getText();
 
         //构建sql
-        String sql = "SELECT username,password FROM user_info WHERE username = "+usernameInput;
+        String sql = "SELECT * FROM user_info WHERE username = "+usernameInput;
 
         //实例化statement来执行sql
         Statement statement = conn.createStatement();

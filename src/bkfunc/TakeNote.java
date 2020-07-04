@@ -1,9 +1,7 @@
 package bkfunc;
 
-import com.mysql.cj.x.protobuf.MysqlxExpect;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
-import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.HPos;
 import javafx.geometry.Insets;
@@ -13,7 +11,10 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.*;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.GridPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
@@ -142,8 +143,6 @@ public class TakeNote extends Application{
         NoticeStage.setTitle("错误提示");
         NoticeStage.getIcons().add(new Image("file:./images/tips.png"));
 
-        //成功提示板
-
 
         //事件绑定
         done.setOnMouseClicked(new EventHandler<MouseEvent>() {
@@ -191,6 +190,7 @@ public class TakeNote extends Application{
         primaryStage.setTitle("立即记账");
         //图标
         primaryStage.getIcons().add(new Image("file:./images/icon.png"));
+        primaryStage.setResizable(false);
     }
 
     public void show(){

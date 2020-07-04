@@ -19,7 +19,7 @@ public class ConnectionClass {
         Class.forName(JDBC_DRIVER);
 
         // 打开链接
-        System.out.println("连接数据库...");
+//        System.out.println("连接数据库...");
         Connection conn = DriverManager.getConnection(DB_URL,USER,PASS);
 
         return conn;
