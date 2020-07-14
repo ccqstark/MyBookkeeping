@@ -61,7 +61,7 @@
 
 ### 账户信息
 
-![image-20200714150834269](images\accout.png)
+![image-20200714150834269](https://github.com/ccqstark/images/blob/master/README/accout.png)
 
 * 点击主界面**账户信息**按钮来到此窗口，显示用户、头像和开发者等信息
 * 点击**编辑**按钮可以唤出**文本编辑器**
