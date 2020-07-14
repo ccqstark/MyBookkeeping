@@ -14,11 +14,11 @@
 
 ### 注册登录
 
-<img src="C:\Users\13673\AppData\Roaming\Typora\typora-user-images\image-20200714143952571.png" alt="image-20200714143952571" style="zoom: 80%;" />
+<img src="images\newuser.png" alt="image-20200714143952571" style="zoom: 80%;" />
 
 新用户在这个界面进行注册，两次密码必须一致才能成功，否则会有错误提醒，最后点击**立即注册**就可以了。注册成功后会自动跳转到登录界面，如果已有账号可以点击**前往登录**按钮。
 
-<img src="C:\Users\13673\AppData\Roaming\Typora\typora-user-images\image-20200714144323948.png" alt="image-20200714144323948" style="zoom:80%;" />
+<img src="images\login.png" alt="image-20200714144323948" style="zoom:80%;" />
 
 * 这个是登录界面，输入用户名和密码点击**登录**即可登录
 
@@ -26,7 +26,7 @@
 
 ### 主界面
 
-<img src="C:\Users\13673\AppData\Roaming\Typora\typora-user-images\image-20200714144547883.png" alt="image-20200714144547883" style="zoom: 67%;" />
+<img src="images\main.png" alt="image-20200714144547883" style="zoom: 67%;" />
 
 * 登录成功来到**主界面**，有4个醒目简约的大按钮分别代表4个主要功能：**立即记账**、**我的账本**、**账户信息**和**统计图表**
 
@@ -36,7 +36,7 @@
 
 ### 立即记账
 
-<img src="C:\Users\13673\AppData\Roaming\Typora\typora-user-images\image-20200714145034802.png" alt="image-20200714145034802" style="zoom: 80%;" />
+<img src="images\newbill.png" alt="image-20200714145034802" style="zoom: 80%;" />
 
 * 点击主界面的**立即记账**可以来到新建账单功能
 * 点击**日期**输入框最右边的按钮可以在日期选择视图中选中日期，在下拉框中选择**收支类别**和**项目**，最后在输入框中输入**描述**和**金额**，填写完整才能点击**完成**新建账单
@@ -46,7 +46,7 @@
 
 ### 我的账本
 
-<img src="C:\Users\13673\AppData\Roaming\Typora\typora-user-images\image-20200714150548594.png" alt="image-20200714150548594" style="zoom:80%;" />
+<img src="images\tableview.png" alt="image-20200714150548594" style="zoom:80%;" />
 
 * 点击主界面**我的账本**可以来到账本功能，这里记录了你的全部账目，点击下面的**页码**可以翻页，点击**日期**或者**金额**栏目可以进行排序
 
@@ -61,7 +61,7 @@
 
 ### 账户信息
 
-![image-20200714150834269](C:\Users\13673\AppData\Roaming\Typora\typora-user-images\image-20200714150834269.png)
+![image-20200714150834269](images\accout.png)
 
 * 点击主界面**账户信息**按钮来到此窗口，显示用户、头像和开发者等信息
 * 点击**编辑**按钮可以唤出**文本编辑器**
@@ -74,7 +74,7 @@
 
 ### 统计图表
 
-<img src="C:\Users\13673\AppData\Roaming\Typora\typora-user-images\image-20200714151224651.png" alt="image-20200714151224651" style="zoom: 67%;" />
+<img src="images\graph.png" alt="image-20200714151224651" style="zoom: 67%;" />
 
 * 点击主界面**统计图表**按钮可以来到这个界面，这里显示你各个项目花费占总金额的比例的**饼状图**
 * 点击对应**色块**可以显示具体百分比
@@ -84,7 +84,7 @@
 
 ### 数据说明
 
-<img src="C:\Users\13673\AppData\Roaming\Typora\typora-user-images\image-20200714151941707.png" alt="image-20200714151941707" style="zoom: 80%;" />
+<img src="images\mysql.png" alt="image-20200714151941707" style="zoom: 80%;" />
 
 此应用采用MySQL作为数据库来存储数据，以上是单条记录的表结构
 
@@ -94,7 +94,7 @@
 
 ### 项目结构介绍
 
-<img src="C:\Users\13673\AppData\Roaming\Typora\typora-user-images\image-20200714152340138.png" alt="image-20200714152340138" style="zoom: 80%;" />
+<img src="images\pro.png" alt="image-20200714152340138" style="zoom: 80%;" />
 
 #### 项目基本结构
 
@@ -112,13 +112,13 @@
 
 ##### 搜索功能
 
-<img src="C:\Users\13673\AppData\Roaming\Typora\typora-user-images\image-20200714154043966.png" alt="image-20200714154043966" style="zoom:67%;" />
+<img src="images\search.png" alt="image-20200714154043966" style="zoom:67%;" />
 
 以上为搜索功能的实现源码，主要是对数据库使用LIKE语句对各个字段进行模糊匹配，最后将符合条件的记录存放到data数据存储结构中
 
 ##### 创建账单显示页面
 
-<img src="C:\Users\13673\AppData\Roaming\Typora\typora-user-images\image-20200714154430288.png" alt="image-20200714154430288" style="zoom: 80%;" />
+<img src="images\table.png" alt="image-20200714154430288" style="zoom: 80%;" />
 
 这2个函数主要创建分页页面和表格，并将数据加载入表格显示出来。设定的字段用格式工厂与存储数据的data（ObservableList\<Bill>类型）中的字段一一对应。
 
