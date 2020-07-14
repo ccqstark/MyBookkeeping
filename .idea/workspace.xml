@@ -1,39 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MyBookkeeping" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/images/loading.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/modify.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bkfunc/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MyBookkeeping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MyBookkeeping_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx11sdk.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/background.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/DatabaseConnect/ConnectionClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/DatabaseConnect/ConnectionClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/AccountPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/AccountPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/Editor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/Editor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/GraphPage$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/GraphPage$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/GraphPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/GraphPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/TakeNote$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/TakeNote$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/TakeNote.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/TakeNote.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/ViewBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/bkfunc/ViewBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/main/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBookkeeping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBookkeeping.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/META-INF/MyBookkeeping.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/main/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Login.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Register$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Register$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyBookkeeping/userbase/Register.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DatabaseConnect/ConnectionClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DatabaseConnect/ConnectionClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bkfunc/AccountPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bkfunc/AccountPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bkfunc/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bkfunc/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bkfunc/Editor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bkfunc/Editor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bkfunc/GraphPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bkfunc/GraphPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bkfunc/TakeNote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bkfunc/TakeNote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bkfunc/ViewBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bkfunc/ViewBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Controller.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/userbase/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/userbase/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/userbase/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/userbase/Login.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/userbase/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/userbase/Register.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,14 +110,16 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="last_opened_file_path" value="C:/javafx-sdk-11.0.2/lib/javafx.web.jar!/" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -312,7 +298,14 @@
       <workItem from="1593589700370" duration="833000" />
       <workItem from="1593736018747" duration="12557000" />
       <workItem from="1593765866915" duration="26066000" />
-      <workItem from="1593834238681" duration="26714000" />
+      <workItem from="1593834238681" duration="32597000" />
+      <workItem from="1593869948118" duration="4539000" />
+      <workItem from="1593874713102" duration="1659000" />
+      <workItem from="1593884544647" duration="1676000" />
+      <workItem from="1594146907225" duration="3242000" />
+      <workItem from="1594343226842" duration="3394000" />
+      <workItem from="1594348920884" duration="1947000" />
+      <workItem from="1594701277241" duration="113000" />
     </task>
     <servers />
   </component>
@@ -325,30 +318,50 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593854283095">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594147088933">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593854283095" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1594147088933" />
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1593838655527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593838655527" />
-    <state width="1493" height="154" key="GridCell.Tab.0.bottom" timestamp="1593862319037">
+    <state x="471" y="218" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593884587572">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="154" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593862319037" />
-    <state width="1493" height="154" key="GridCell.Tab.0.center" timestamp="1593862319037">
+    <state x="471" y="218" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1593884587572" />
+    <state x="354" y="180" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1593884760658">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="154" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593862319037" />
-    <state width="1493" height="154" key="GridCell.Tab.0.left" timestamp="1593862319036">
+    <state x="354" y="180" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1593884760658" />
+    <state x="385" y="1" key="CommitChangelistDialog2" timestamp="1594701460247">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="154" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593862319036" />
-    <state width="1493" height="154" key="GridCell.Tab.0.right" timestamp="1593862319037">
+    <state x="385" y="1" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594701460247" />
+    <state x="523" y="127" key="DetectedRootsChooserDialog" timestamp="1593863125554">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="154" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593862319037" />
+    <state x="523" y="127" key="DetectedRootsChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1593863125554" />
+    <state x="422" y="173" key="FileChooserDialogImpl" timestamp="1594348849810">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="422" y="173" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594348849810" />
+    <state width="1493" height="192" key="GridCell.Tab.0.bottom" timestamp="1594350894990">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="192" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594350894990" />
+    <state width="1493" height="192" key="GridCell.Tab.0.center" timestamp="1594350894990">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="192" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594350894990" />
+    <state width="1493" height="192" key="GridCell.Tab.0.left" timestamp="1594350894989">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="192" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594350894989" />
+    <state width="1493" height="192" key="GridCell.Tab.0.right" timestamp="1594350894990">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="192" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594350894990" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1593800103211">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -365,18 +378,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593800103211" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1593741622128">
+    <state x="237" y="37" width="1038" height="746" key="SettingsEditor" timestamp="1594701391961">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593741622128" />
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1593834427588">
+    <state x="237" y="37" width="1038" height="746" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594701391961" />
+    <state x="453" y="284" key="classpath-attribute-editor" timestamp="1593866049870">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593834427588" />
+    <state x="453" y="284" key="classpath-attribute-editor/0.0.1536.824@0.0.1536.824" timestamp="1593866049870" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1594701312925">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594701312925" />
     <state x="377" y="0" width="782" height="824" key="find.popup" timestamp="1593844622733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="377" y="0" width="782" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1593844622733" />
+    <state x="281" y="163" width="738" height="518" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1594701390834">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="281" y="163" width="738" height="518" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.824@0.0.1536.824" timestamp="1594701390834" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1593840387510">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

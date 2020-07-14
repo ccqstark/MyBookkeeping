@@ -10,6 +10,7 @@ import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
+import javafx.scene.layout.StackPane;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
@@ -100,7 +101,16 @@ public class Main extends Application {
             primaryStage.show();
         });
 
-        Scene scene = new Scene(mainPane,405,365);
+        StackPane root = new StackPane();
+        root.setStyle(
+                "-fx-background-image: url(" +
+                        "'https://pic.52112.com/180710/JPG-180710_173/UZuAHiafUi_small.jpg'" +
+                        "); " +
+                        "-fx-background-size: cover;"
+        );
+        root.getChildren().add(mainPane);
+
+        Scene scene = new Scene(root,405,365);
         primaryStage.setScene(scene);
         primaryStage.setTitle("My Bookkeeping");
         //图标
@@ -108,7 +118,6 @@ public class Main extends Application {
         primaryStage.setResizable(false);
         primaryStage.show();
     }
-
 
     public static void main(String[] args) {
         launch(args);
