@@ -14,7 +14,7 @@
 
 ### 注册登录
 
-<img src="http://github.com/ccqstark/images/raw/master/README/newuser.png" alt="image-20200714143952571" style="zoom: 80%;" />
+<img src="https://github.com/ccqstark/images/blob/master/README/newuser.png" alt="image-20200714143952571" style="zoom: 80%;" />
 
 新用户在这个界面进行注册，两次密码必须一致才能成功，否则会有错误提醒，最后点击**立即注册**就可以了。注册成功后会自动跳转到登录界面，如果已有账号可以点击**前往登录**按钮。
 
