@@ -8,12 +8,12 @@ public class ConnectionClass {
 
         // MySQL 8.0 以上版本 - JDBC 驱动名及数据库 URL
         final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-        final String DB_URL = "jdbc:mysql://180.76.98.154:3306/JavaBigHomework?useSSL=false&serverTimezone=UTC";
+        final String DB_URL = "jdbc:mysql://xxx.xxx.xxx.xxx:3306/JavaBigHomework?useSSL=false&serverTimezone=UTC";
 
 
         // 数据库的用户名与密码，需要根据自己的设置
         final String USER = "root";
-        final String PASS = "142843827ccq";
+        final String PASS = "";
 
         // 注册 JDBC 驱动
         Class.forName(JDBC_DRIVER);
